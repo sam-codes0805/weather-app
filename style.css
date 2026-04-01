@@ -1,0 +1,63 @@
+/* Weather APP stylesheet */
+
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-size-base: 16px;
+    --spacing-unit: 8px;
+}
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-base);
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: calc(var(--spacing-unit) * 2);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    margin-bottom: calc(var(--spacing-unit) * 1.5);
+}
+.search-box {
+    display: flex;
+    margin-bottom: calc(var(--spacing-unit) * 2);
+}
+.search-box input[type="text"] {
+    flex: 1;
+    padding: calc(var(--spacing-unit) * 1);
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    font-size: var(--font-size-base);
+}
+
+.search-button {
+    padding: calc(var(--spacing-unit) * 1);
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: var(--font-size-base);
+}
+
+.weather-info {
+    background-color: #fff;
+    padding: calc(var(--spacing-unit) * 2);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: calc(var(--spacing-unit) * 2);
+}
+.location, .date, .temp, .weather{
+    margin-bottom: calc(var(--spacing-unit) * 1);
+}
+.weather-info p {
+    font-size: 1.2em;
+    margin: 0;
+}
