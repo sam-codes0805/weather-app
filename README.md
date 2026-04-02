@@ -13,8 +13,11 @@ A web application that displays real-time weather information for Indian cities.
 - JavaScript
 - Weather API
 
+## Screenshots
+![alt text](<Screenshot 2026-04-02 212818.png>) ![alt text](<Screenshot 2026-04-02 212842.png>)
+
 ## Live Demo
-https://weather-demo.netlify.app
+https://weather-app-8125.netlify.app/
 
 ## How to Run
 1. Open index.html in browser
